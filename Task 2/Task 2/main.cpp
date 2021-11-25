@@ -22,6 +22,10 @@ int main()
 	double a = 0;
 	std::cin >> a;
 	
+	double first = 0;
+	double second = 0;
+	double third = 0;
+	
 	face_area();
 	total_surface_area();
 	volume();

@@ -1,14 +1,19 @@
 #include <iostream>
 #include <cmath>
-/**
-* \brief Главная функция. Точка входа в программу.
-* \return Возвращает 0 в случае успеха.
-* \double .. Обьявляем переменные.
-* \cin >> .. Даём пользователю возможность ввести значение переменных.
-*/
+
+void first_func (){
+    a = log(z + x * x) + sin(x / y) * sin(x / y);
+	std::cout << "a = " << a;
+}
+
+void second_func (){
+	b = exp(-z) * (x + sqrt(x + z)) / (x - sqrt(module);
+	std::cout << "b = " << b;
+}
+
 int main()
 {
-	std::cout << "Введите значения переменных x, y, z ";
+	std::cout << "Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёСЏ РїРµСЂРµРјРµРЅРЅС‹С… x, y, z ";
 	
 	double x = 0;
 	double y = 0;
@@ -20,10 +25,9 @@ int main()
 	double a = 0;
 	double b = 0;
 	double module = abs(x - y);
-	a = log(z + x * x) + sin(x / y) * sin(x / y);
-	std::cout << "a = " << a;
-	b = exp(-z) * (x + sqrt(x + z)) / (x - sqrt(module);
-	std::cout << "b = " << b;
+
+	first_func();
+	second_func();
 	
 	return 0;
 }

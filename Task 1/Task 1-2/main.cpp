@@ -22,6 +22,9 @@ int main()
 	double b = 0;
 	std::cin >> a;
 	std::cin >> b;
+	
+	func_arif();
+	func_geom();
 
 	return 0;
 }

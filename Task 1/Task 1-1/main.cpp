@@ -7,6 +7,7 @@ void first_func (){
 }
 
 void second_func (){
+	double module = abs(x - y);
 	b = exp(-z) * (x + sqrt(x + z)) / (x - sqrt(module);
 	std::cout << "b = " << b;
 }
@@ -24,7 +25,6 @@ int main()
 	
 	double a = 0;
 	double b = 0;
-	double module = abs(x - y);
 
 	first_func();
 	second_func();

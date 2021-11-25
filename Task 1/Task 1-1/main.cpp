@@ -13,7 +13,7 @@ void second_func (){
 
 int main()
 {
-	std::cout << "Введите значения для переменных x, y, z ";
+	std::cout << "Введите значения переменных x, y, z ";
 	
 	double x = 0;
 	double y = 0;
